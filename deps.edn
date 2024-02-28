@@ -1,0 +1,6 @@
+{:paths ["dev" "notebooks" "resources"]
+ :deps
+ {io.github.nextjournal/clerk {:git/sha "babbba51f9e3d0deeadfcc9ac33895b8349c1179"}
+  org.clojure/core.match {:mvn/version "1.0.1"}
+  org.clojure/core.async {:mvn/version "1.6.681"}
+  org.clojure/clojure {:mvn/version "1.11.1"}}}
