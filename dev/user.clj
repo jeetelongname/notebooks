@@ -2,9 +2,9 @@
   (:require [nextjournal.clerk :as clerk]))
 
 (comment
-  (clerk/serve! {:browse? true
-                 :watch-paths ["notebooks"]})
-  (clerk/show! "notebooks/genetic.clj")
-  (clerk/show! "notebooks/editor.clj")
-
-  (clerk/build! { :paths ["notebooks/genetic.clj"]}))
+ (clerk/serve! {:browse? true
+                :watch-paths ["notebooks"]
+                :port 7776})
+ (clerk/show! "notebooks/ssen.clj")
+  
+ (clerk/halt!))
